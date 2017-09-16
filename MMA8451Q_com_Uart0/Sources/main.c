@@ -124,7 +124,7 @@ int main(void)
    		enviar_eixo_uart(eixoZ,'Z');
 
 
-
+//Teste do git
    		//Acionamento dos LEDs conforme os eixos
    		if(eixoX>0x07FF)
    			GPIOB_PCOR |= 1<<18; //Liga Led Vermelho
